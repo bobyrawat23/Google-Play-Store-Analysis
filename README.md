@@ -40,7 +40,7 @@ Price and Installs: contained symbols like $, +, and ,.
 
 Removed or imputed missing values (especially in Rating).
 
-Cleaned numerical fields:
+* Cleaned numerical fields:
 
 Installs converted from strings (e.g., "1,000+") to integers.
 
@@ -48,11 +48,11 @@ Size normalized (e.g., converted "13M" to 13, "500k" to 0.5).
 
 Price cleaned from strings like "$4.99" to floats.
 
-Converted categorical data:
+* Converted categorical data:
 
 One-hot encoded the Category feature to allow machine learning models to process it.
 
-Filtered out anomalies:
+* Filtered out anomalies:
 
 Removed apps with extremely high prices, review counts, or outliers.
 
@@ -84,7 +84,7 @@ Users don’t penalize large apps if they are functional and engaging.
 
 # 📌 Models Used:
 
-# Linear Regression:
+ * Linear Regression:
 
 Simple baseline model to assess linear relationships.
 
@@ -92,7 +92,7 @@ R² Score: ~0.017 — explains ~1.7% of the variation in ratings.
 
 RMSE: ~0.49 — shows average prediction error.
 
-# Random Forest Regressor:
+ * Random Forest Regressor:
 
 More complex, non-linear model.
 
